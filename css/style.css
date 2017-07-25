@@ -1,0 +1,109 @@
+* {
+	box-sizing: border-box;
+	transition: all .1s ease-in;
+}
+
+body {
+	font-family: “Arial”, sans-serif;
+	background-color: #f2f0f2;
+	max-height: 600%;
+}
+
+.search {
+	margin: 50px 0 0 150px;
+}
+
+.input {
+	font-size: 95px;
+	font-weight: bold;
+	color: #ec5a62;
+	background-color: #f2f0f2;
+	border: none;
+	width: 950px;
+	outline:none; /* убрать активную границу */
+}
+input::-moz-placeholder { 
+	color: #c2c2c2; 
+}
+
+input::-webkit-input-placeholder {
+	color: #c2c2c2;
+}
+.submit {
+	background-color: #f2f0f2;
+	width: 80px;
+	height: 80px;
+	border: none;
+	outline:none;
+}
+
+.submit:hover {
+	width: 95px;
+	height: 95px;
+}
+
+section {
+	display: inline-block;
+	width: 22%;
+	margin-left: 50px;
+	padding-top: 50px;
+
+}
+
+.one {
+	display: inline-block;
+	margin-left: 150px;
+}
+h2 {
+	text-transform: uppercase; /* все буквы верхним регистром */
+	font-size: 18px;
+	font-weight: bold;
+	color: #c2c2c2;
+	margin-bottom: 20px;
+}
+
+.people img {
+	border-radius: 50%;
+}
+/*img {
+	vertical-align: 100%;
+
+}*/
+li {
+	display: inline-block;
+	width: 100%;
+	background-color: rgba(118,117,128,0.05);
+	border-radius: 5%;
+	margin: 2px;
+
+}
+
+li:hover {
+	background-color: rgba(118,117,128,0.1);
+}
+
+li a {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 14px;
+	color: #c2c2c2;
+	font-weight: bold;
+	text-align: 200%;
+}
+
+li a:hover {
+	color: #ec5a62;
+}
+
+.people {
+	display: inline-block;
+
+}
+
+.popular {
+	display: inline-block;
+}
+
+.recent {
+	display: inline-block;
+}
